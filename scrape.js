@@ -5,12 +5,23 @@ request('https://www.pslcorp.com/', (error, response, html) => {
     if (!error && response.statusCode == 200) {
         const $ = cheerio.load(html);
 
-         const kwds = $('img');
-        console.log("En este sitio hay: "+ kwds.length + " imagenes");   
-        // console.log(kwds.text());    
+        // const readClass = $('.custom-labs-case-studies');
         
-        // const output = kwds.find('img').length;
-        // const output = kwds.children('li').length;
+        // const nImgs = $('img');
+        // console.log("En este sitio hay: " + nImgs.length + " imagenes");
+        // console.log(nImgs.text());    
+
+        // const output = readClass.find('h1').next().text();
+        // const output = readClass.find('h1').text();
+        // const output = readClass.children('h1').length;
         // console.log(output);    
+
+        $('.custom-insights a').each((i, el) => {
+            const item = $(el).text();
+            const link = $(el).attr('href');
+
+            console.log(link);
+            
+        });
     }
 });

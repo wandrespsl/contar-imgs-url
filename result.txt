@@ -1,0 +1,13 @@
+Title,Link 
+ DevOps  , #devopsPSL 
+ Artificial Intelligence / Machine Learning  , #artificialPsl 
+ Test Automation  , #testautomationPsl 
+ UX/UI  , #UXUIPsl 
+ Cloud Architecture design and implementation  , #Cloud-transitionPsl 
+ Blockchain  , #BlockchainPsl 
+ Analytics  , #AnalyticsPsl 
+ Big Data / Fast Data  , #BigDataPsl 
+ Chatbots / Voice Recognition system processing  , #ChatbotsPsl 
+ Modern Scalable Platforms  , #ScalablePlatformsPsl 
+ Mobile , #MobilePsl 
+ Performance Engineering  , #PerformanceEngineeringPsl 
