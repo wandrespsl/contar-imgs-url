@@ -8,8 +8,16 @@
     "start": "node scrape.js"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandrespsl/contar-imgs-url.git"
+  },
+  "author": "W Andres <weimarandrescastaneda@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wandrespsl/contar-imgs-url/issues"
+  },
+  "homepage": "https://github.com/wandrespsl/contar-imgs-url#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "file-system": "^2.2.2",
