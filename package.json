@@ -2,15 +2,17 @@
   "name": "contar-imagenes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scrape.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scrape.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "file-system": "^2.2.2",
     "request": "^2.88.0"
   }
 }
